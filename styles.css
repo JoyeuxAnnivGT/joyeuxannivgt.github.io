@@ -1,0 +1,47 @@
+/* Reset basic styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background-texture.jpg') repeat;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Google-style title */
+h1.google-text {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+/* Add Google-style colors to the title */
+h1.google-text span:nth-child(4n+1) {
+    color: #4285F4;
+}
+
+h1.google-text span:nth-child(4n+2) {
+    color: #EA4335;
+}
+
+h1.google-text span:nth-child(4n+3) {
+    color: #FBBC05;
+}
+
+h1.google-text span:nth-child(4n+4) {
+    color: #34A853;
+}
+
+/* Full-width image */
+.full-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
